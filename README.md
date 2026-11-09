@@ -14,9 +14,9 @@ its own scaling, key handling and sound.
 
 ## Screenshots
 
-![](images/RedHood_E7.png "RedHood on Nokia E7")
-![](images/Snails_N86.png "Snails on Nokia N86")
-![](images/Qwak_603.png "Qwak on Nokia 603")
+![](images/RedHood_E7.jpg "RedHood on Nokia E7")
+![](images/Snails_N86.jpg "Snails on Nokia N86")
+![](images/Qwak_603.jpg "Qwak on Nokia 603")
 
 ## How it works
 
