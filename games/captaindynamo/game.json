@@ -1,0 +1,24 @@
+{
+  "id": "captaindynamo",
+  "name": "Captain Dynamo",
+  "uid3": "0548e337",
+  "app_file": "CaptainDynamo.app",
+  "status": "plays",
+  "profile": "0548E337.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 244,
+        "direct": 23,
+        "shim": 123,
+        "trap": 98,
+        "reached": 0
+      }
+    }
+  ]
+}

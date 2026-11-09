@@ -1,0 +1,24 @@
+{
+  "id": "sapphire",
+  "name": "Sapphire Spires",
+  "uid3": "10208991",
+  "app_file": "sapphire.app",
+  "status": "plays",
+  "profile": "10208991.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 236,
+        "direct": 38,
+        "shim": 103,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}

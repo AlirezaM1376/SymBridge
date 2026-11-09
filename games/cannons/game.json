@@ -1,0 +1,24 @@
+{
+  "id": "cannons",
+  "name": "Cannons",
+  "uid3": "1020898b",
+  "app_file": "cannons.app",
+  "status": "plays",
+  "profile": "1020898B.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 235,
+        "direct": 38,
+        "shim": 102,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}

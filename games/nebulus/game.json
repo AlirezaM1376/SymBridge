@@ -1,0 +1,29 @@
+{
+  "id": "nebulus",
+  "name": "Nebulus",
+  "uid3": "0f6041af",
+  "app_file": "Nebulus.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 239,
+        "direct": 18,
+        "shim": 123,
+        "trap": 98,
+        "reached": 0
+      }
+    },
+    {
+      "id": "alt",
+      "map": "map.alt.csv",
+      "notes": "older release; predicts 123/22/98, the baseline is 122/19/98 (main map)"
+    }
+  ]
+}

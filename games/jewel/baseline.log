@@ -1,0 +1,32 @@
+SymBridge GUI start
+build: 1.1.0 Nov  8 2026 01:03:58
+OS version 2.0 build 1602
+client rect 0,0 - 320,240
+locator: E:\symbridge has 3 game(s); chosen 'E:\symbridge\JewelMaster\jewel.app' uid3=1020898d (autostart)
+profile: default.prf -> 0, 1020898D.prf -> -1 (not applied)
+profile: screen 176x208 mode 7, thread stack min 10000, high priority as 0, link_report=1
+profile: exit trick tls=60 field=20 value=3 (tls 0 = off)
+profile: overrides show_fps=-1 max_fps=-1 softkeys=-1/-1 (-1 = not set)
+profile: keys_plain=0
+game: chunk 01800000, relocate -> 0 applied=1922 outside=0
+shim registry: 14 tables, 288 entries, 0 problems
+link: IAT sanity ok, 235 slots match the import ordinals
+link: direct=38 shim=102 trap=95 (total 235)
+link: trap apparc (3): 6 27 71 
+link: trap avkon (10): 750 802 803 805 1206 1234 1254 1267 1348 1352 
+link: trap cone (32): 28 29 33 66 72 74 84 85 87 90 95 96 100 101 138 139 147 153 173 177 185 187 200 208 221 255 256 276 292 293 312 314 
+link: trap eikcore: 20 30 31 40 48 49 51 52 64 65 66 68 71 74 75 76 80 81 82 84 86 100 116 121 122 123 124 130 133 134 142 143 144 146 147 149 150 151 155 157 161 179 198 
+link: trap eikcore (50): 200 204 206 226 253 264 290 
+game: app=00741c48 doc=00705bd0 appui=00711cc8
+thread: game thread running fn=01813c40 param=0077cca0
+config: 'E:\symbridge\JewelMaster\configs.cfg' scale_mode=3 scale_key=196 show_fps=0 max_fps=0 softkeys=0/0 logging=2
+config: in effect show_fps=0 max_fps=0 softkeys=0/0
+hits: 0 unresolved imports were reached
+gfx: total frames 1211 in 40101 ms
+SUMMARY uid3=1020898d imports=235 direct=38 shim=102 trap=95 reached=0 frames=1211 exit=normal secs=40
+thread: game thread finished: trap=0 old-leave=0 result=0 lasthit=-1
+thread: game thread 746 ended: type=0 (0=kill 1=terminate 2=panic) reason=0 category='Kill' (state already detached: it returned normally)
+thread: game thread(s) ended by themselves after 471 ms
+exit: game thread 1 (1 = ended by itself, 0 = will be killed)
+exit: game threads shut down
+CRASHWATCH: UI thread exit type=0 (0=kill 1=terminate 2=panic) category=Kill reason=0

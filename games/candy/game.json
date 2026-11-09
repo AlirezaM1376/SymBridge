@@ -1,0 +1,24 @@
+{
+  "id": "candy",
+  "name": "Candy",
+  "uid3": "0b119053",
+  "app_file": "candy.app",
+  "status": "plays",
+  "profile": "0B119053.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 219,
+        "direct": 9,
+        "shim": 114,
+        "trap": 96,
+        "reached": 0
+      }
+    }
+  ]
+}

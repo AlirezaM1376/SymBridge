@@ -1,0 +1,174 @@
+crash watch thread -> 0
+SymBridge GUI start
+build: 1.1.0 Nov  6 2026 09:13:04
+OS version 2.0 build 1602
+heap: size 130952 max 16777216
+free RAM start=165752832
+client rect 0,0 - 320,240
+CreateLocalCode in GUI process -> 0
+container created and on stack
+locator: E:\symbridge has 9 game(s); chosen 'E:\symbridge\MagicPuz\MagicPuz.app' uid3=00aee84a (autostart)
+profile: default.prf -> 0, 00AEE84A.prf -> -1 (not applied)
+profile: screen 176x208 mode 7, thread stack min 10000, high priority as 0, link_report=1
+profile: exit trick tls=60 field=20 value=3 (tls 0 = off)
+profile: overrides show_fps=-1 max_fps=-1 softkeys=-1/-1 (-1 = not set)
+profile: keys_plain=0
+link report: writing E:\MagicPuz_links.txt
+game: read 282576 bytes
+game: chunk 01800000, relocate -> 0 applied=845 outside=0
+shim registry: 14 tables, 288 entries, 0 problems
+link: IAT sanity ok, 251 slots match the import ordinals
+link: direct=25 shim=128 trap=98 (total 251)
+link: trap apparc (3): 6 27 71 
+link: trap avkon (11): 750 802 803 805 1205 1206 1234 1254 1267 1348 1352 
+link: trap cone (35): 28 29 33 54 66 72 74 84 85 87 90 95 96 100 101 131 132 138 139 147 153 173 177 185 187 200 208 221 255 256 276 292 293 312 314 
+link: trap eikcore: 20 30 31 40 48 49 51 52 64 65 66 68 71 74 75 76 80 81 82 84 86 100 116 121 122 124 130 133 134 142 143 144 146 147 149 150 151 155 157 161 179 198 200 
+link: trap eikcore (49): 204 206 226 253 264 290 
+calling NewApplication (fn=0180e064 arg=00000000)
+  returned 007117d0
+calling CreateDocumentL [vt+14] (fn=0180e060 arg=007117d0)
+  returned 00705bd0
+calling CreateAppUiL [vt+19] (fn=0180e5cc arg=00705bd0)
+  returned 00711a00
+game: app=007117d0 doc=00705bd0 appui=00711a00
+gfx: fake screen memory at 007583d8 (176x208, mode 7)
+fs: real fopen = 806c4581 (estlib ordinal 140, load 0)
+fs: AppFullName will answer 'E:\symbridge\MagicPuz\MagicPuz.app'
+--- old AppUi::ConstructL (trace mode) ---
+calling AppUi::ConstructL [vt+15] (fn=0180e0a4 arg=00711a00)
+gfx: bitmap 176x208 mode 7 stride 352 at 0077eb68
+gfx: ScreenInfo -> screen=007583d8 176x208
+thread: Create('hssSDthread_0001', fn=01803700, stack 20000 (old 20000), old heap 00000000, ptr 00000000, type 0) -> -40
+thread: Create('hssSDthread_0001', fn=01803700, stack 14000 (old 20000), old heap 00000000, ptr 00000000, type 0) -> 0
+thread: SetInitialParameter(00711bc8) -> 0
+thread: SetPriority(old 30), clamped=1
+thread: Resume
+thread: game thread running fn=01803700 param=00711bc8
+cleanup: CTrapCleanup::New answered with a fake object
+sched: CActiveScheduler ctor old=00711e68 real=00711e90
+sched: Install(old=00711e68) real=00711e90
+tls: set handle=01800000 ptr=00711e00
+signal: SetExceptionHandler(handler=018033e8, mask=ffffffff) thread 5fd, armed=1
+sched: Start (entering the real loop)
+audio: CMdaAudioOutputStream::NewL(observer 00711e04) -> facade 00792740, real stream 1
+audio: Open
+audio: Open: real stream 1, game props 0 (8000 Hz, 1 ch)
+audio: real MaoscOpenComplete(0), useReal=1 shutdown=0 queued=0 tick=18354523
+audio: REAL stream open: 8000 Hz, 1 ch, volume 5/10, 0 buffers flushed
+audio: game SetAudioPropertiesL rate=100 ch=2000000 (open done 1)
+audio: real stream properties 16000 Hz, 1 ch -> 0
+audio: game SetPriority(0, 0) forwarded
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: TParse::Set -> 0, full name 'E:\symbridge\MagicPuz\MagicPuz.app'
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: DriveAndPath this=0041f064 facade=1
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: Open('E:\symbridge\MagicPuz\lockfile', mode 0) -> 0
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: Size -> 0, size 7
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: Read(max 32) -> 0, got 7 bytes
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: TParse::Set -> 0, full name 'E:\symbridge\MagicPuz\MagicPuz.app'
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: DriveAndPath this=0041f020 facade=1
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: Open('E:\symbridge\MagicPuz\info.mp', mode 0) -> 0
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: Size -> 0, size 2
+fs: Read(max 32) -> 0, got 2 bytes
+fs: TParse::Set -> 0, full name 'E:\symbridge\MagicPuz\MagicPuz.app'
+fs: DriveAndPath this=0041f020 facade=1
+fs: Open('E:\symbridge\MagicPuz\magicpuz.mp', mode 0) -> 0
+fs: Size -> 0, size 40
+fs: Read(max 56) -> 0, got 40 bytes
+ctl: AddForegroundObserverL(observer 00711a98) -> 1 registered
+ctl: AddToStackL(control 00711a68, priority 0, flags 0) -> 1 on the stack
+  returned 00703d9c
+input route: key=control stack (framework default), foreground=no AppUi override + 1 observer(s), stacked controls=1
+input route: AppUi vtable 01843b18 word8=01810f18 word9=01811428
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+config: 'E:\symbridge\MagicPuz\configs.cfg' scale_mode=3 scale_key=196 show_fps=0 max_fps=0 softkeys=0/0 logging=2
+config: in effect show_fps=0 max_fps=0 softkeys=0/0
+disp: start frames -> 0, container rect 0,0 - 320,240
+idle: CIdle::New(priority -100) -> fake 0079a990
+idle: Start(fn=018009ec, ptr=0077c000)
+foreground: gain=1 told AppUi override=0, observers=1
+start-up done
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+foreground: gain=1 told AppUi override=0, observers=1
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+audio: game WriteL len=1120 (open done 1, real 1)
+fs: TParse::Set -> 0, full name 'E:\symbridge\MagicPuz\MagicPuz.app'
+fs: DriveAndPath this=0041f844 facade=1
+fs: Replace('E:\symbridge\MagicPuz\info.mp', mode 200) -> 0
+fs: Write(2 bytes) -> 0
+fs: TParse::Set -> 0, full name 'E:\symbridge\MagicPuz\MagicPuz.app'
+fs: Replace('E:\symbridge\MagicPuz\info.mp', mode 200) -> 0
+fs: Write(2 bytes) -> 0
+key: softkey scan=164 type=3 code=0
+key: softkey scan=164 type=1 code=63554
+key: softkey scan=164 type=2 code=0
+exit: game called CEikAppUi::Exit(), unwinding the old frames
+exit: performing the real CEikAppUi::Exit() from host frames
+exit: CEikAppUi::Exit() left with -1003
+exit: destructor start
+foreground: gain=0 told AppUi override=0, observers=1
+audio: Stop
+foreground: game already exited, focus event not sent
+exit: foreground lost
+hits: 0 unresolved imports were reached
+gfx: total frames 712 in 29067 ms
+free RAM exit=163188736 delta=-2564096
+SUMMARY uid3=00aee84a imports=251 direct=25 shim=128 trap=98 reached=0 frames=712 exit=normal secs=29
+thread: exit trick applied (tls 00711e00, block 00711bc8): state 2 -> 3
+audio: real MaoscPlayComplete(-3) -> old code gets -3
+audio: stream deleted by old code
+audio: facade 00792740 freed (real stream 1)
+audio: CMdaAudioOutputStream::NewL(observer 00711e04) -> facade 007001c0, real stream 0
+audio: Open
+audio: Open: real stream 0, game props 0 (8000 Hz, 1 ch)
+sched: Stop
+sched: Start returned (Stop was called)
+tls: set handle=01800000 ptr=00000000
+audio: Stop
+audio: stream deleted by old code
+audio: facade 007001c0 freed (real stream 0)
+sched: old scheduler 00711e68 destroyed (flags 3)
+thread: game thread finished: trap=0 old-leave=0 result=0 lasthit=-1
+thread: game thread 5fd ended: type=0 (0=kill 1=terminate 2=panic) reason=0 category='Kill' (state already detached: it returned normally)
+thread: game thread(s) ended by themselves after 474 ms
+exit: game thread 1 (1 = ended by itself, 0 = will be killed)
+audio: shutdown, opens requested=2, real open completions=1, real buffers copied=851, fallbacks to fake=0
+exit: before container delete
+exit: container deleted
+exit: game threads shut down
+exit: code chunk closed
+SymBridge GUI exit
+CRASHWATCH: UI thread exit type=0 (0=kill 1=terminate 2=panic) category=Kill reason=0

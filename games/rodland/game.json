@@ -1,0 +1,24 @@
+{
+  "id": "rodland",
+  "name": "Rodland",
+  "uid3": "028a6038",
+  "app_file": "RodLandSymb.app",
+  "status": "plays",
+  "profile": "028A6038.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 245,
+        "direct": 25,
+        "shim": 117,
+        "trap": 103,
+        "reached": 0
+      }
+    }
+  ]
+}

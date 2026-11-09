@@ -1,0 +1,33 @@
+# Captain Dynamo (UID3 0548E337) profile. The values of per-game profiles will override the default profile values.
+# Check default profile (default.prf) to understand the operation of each key.
+# Remove the # to override default values (# before each line means it's commented)
+
+#screen_width=176
+#screen_height=208
+#display_mode=7
+
+#thread_stack_min=0x10000
+#thread_high_priority=normal
+
+# Exit trick for games whose engine thread only stops when a state word in its own control block says so.
+# The game keeps the control block's address in its Dll::Tls data: at byte offset stop_state_tls there is
+# the pointer to the block, and the word at byte offset stop_state_field of the block is set to
+# stop_state_value. These are the Captain Dynamo layout. A game that stops itself or has another
+# layout needs "stop_state_value" to be 0 in its own profile.
+stop_state_tls=0x60
+stop_state_field=0x20
+stop_state_value=3
+
+# Safeguard: ignore this profile if the .app is a different build (header code size of this one).
+match_code_size=0x3b46c
+
+#link_report=0
+#keys_plain=0
+#auto_cmd=0
+
+# Settings that configs.cfg also has. These values will override config file values (remove the # to override) 
+
+#show_fps=0
+#max_fps=0
+#softkey_left_cmd=0
+#softkey_right_cmd=0

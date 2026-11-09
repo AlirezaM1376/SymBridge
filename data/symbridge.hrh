@@ -1,0 +1,9 @@
+#ifndef SYMBRIDGE_HRH
+#define SYMBRIDGE_HRH
+
+enum TSbCommands
+    {
+    ESbCmdLog = 0x6001
+    };
+
+#endif

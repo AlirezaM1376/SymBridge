@@ -1,0 +1,24 @@
+{
+  "id": "fireball",
+  "name": "Fireball",
+  "uid3": "1020898c",
+  "app_file": "fireball.app",
+  "status": "plays",
+  "profile": "1020898C.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 235,
+        "direct": 38,
+        "shim": 102,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}

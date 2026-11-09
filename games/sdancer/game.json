@@ -1,0 +1,24 @@
+{
+  "id": "sdancer",
+  "name": "Hell Striker",
+  "uid3": "03510510",
+  "app_file": "SDancer.app",
+  "status": "menu",
+  "profile": "03510510.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 219,
+        "direct": 9,
+        "shim": 114,
+        "trap": 96,
+        "reached": 0
+      }
+    }
+  ]
+}

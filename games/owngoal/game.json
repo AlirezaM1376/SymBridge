@@ -1,0 +1,24 @@
+{
+  "id": "owngoal",
+  "name": "Own Goal",
+  "uid3": "101f8b96",
+  "app_file": "OwnGoal.app",
+  "status": "plays",
+  "profile": "101F8B96.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 161,
+        "direct": 2,
+        "shim": 62,
+        "trap": 97,
+        "reached": 0
+      }
+    }
+  ]
+}

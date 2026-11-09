@@ -1,0 +1,13 @@
+# Hand decisions the SDK libs cannot tell. One row per (dll, v2_ordinal); the key must exist in a games/*/map*.csv file.
+# kind: direct | shim_needed | virtual_slot | compiler_helper | no_v3_lib | ambiguous | sig_changed | overloaded
+# v3_ordinal: empty = keep what the map says. Needed for kind direct when the map has no match.
+dll,v2_ordinal,kind,v3_ordinal,note
+avkon,874,virtual_slot,,"CAknAppUi::KeySounds(): virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+eikcore,122,virtual_slot,,"CEikApplication::OpenAppInfoFileLC() const: virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+eikcore,142,virtual_slot,,"CEikDocument::Reserved_1(): virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+eikcore,143,virtual_slot,,"CEikApplication::Reserved_1(): virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+eikcore,144,virtual_slot,,"CEikAppUi::Reserved_1(): virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+eikcore,147,virtual_slot,,"CEikAppUi::Reserved_2(): virtual function, no export in v3, reached through the vtable (carried over from the step-1 importmap.h)"
+efsrv,15,direct,120,"RFsBase::Close(): the map says 'missing', importmap binds it to v3 efsrv #120 (hand decision carried over)"
+euser,1409,direct,1175,"TPtrC16::TPtrC16(const TDesC16&): the map says there is v3_alt (1171 ,1175), both v3 ords seems working so binded directly to 1175 (hand decision carried over)"
+euser,1370,direct,838,"TRect(const TSize&): the map says exact but there is v3_alt (838 ,843), binded directly to 838 (hand decision carried over)"

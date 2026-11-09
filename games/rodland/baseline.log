@@ -1,0 +1,155 @@
+crash watch thread -> 0
+SymBridge GUI start
+build: 1.1.0 Nov  6 2026 09:13:04
+OS version 2.0 build 1602
+heap: size 130952 max 16777216
+free RAM start=167571456
+client rect 0,0 - 320,240
+CreateLocalCode in GUI process -> 0
+container created and on stack
+locator: E:\symbridge has 14 game(s); chosen 'E:\symbridge\Rodland\RodLandSymb.app' uid3=028a6038 (autostart)
+profile: default.prf -> 0, 028A6038.prf -> 0 (applied)
+profile: screen 176x208 mode 7, thread stack min 10000, high priority as 0, link_report=0
+profile: exit trick tls=0 field=0 value=0 (tls 0 = off)
+profile: overrides show_fps=-1 max_fps=-1 softkeys=-1/-1 (-1 = not set)
+profile: keys_plain=0
+game: read 1229000 bytes
+game: chunk 01800000, relocate -> 0 applied=3913 outside=0
+shim registry: 14 tables, 288 entries, 0 problems
+link: IAT sanity ok, 245 slots match the import ordinals
+link: direct=25 shim=117 trap=103 (total 245)
+link: trap apparc (3): 6 27 71 
+link: trap avkon (11): 750 802 803 805 1205 1206 1234 1254 1267 1348 1352 
+link: trap cone (34): 28 29 33 54 66 72 74 84 85 90 95 96 100 101 131 132 138 139 147 153 173 177 185 187 200 208 221 255 256 276 292 293 312 314 
+link: trap eikcore: 20 30 31 40 48 49 51 52 64 65 66 68 71 74 75 76 80 81 82 84 86 100 116 121 122 124 130 133 134 142 143 144 146 147 149 150 151 155 157 161 179 198 200 
+link: trap eikcore (49): 204 206 226 253 264 290 
+link: trap euser (5): 792 793 931 932 1208 
+link: trap sysagt (1): 2 
+calling NewApplication (fn=01848710 arg=00000000)
+  returned 007117d0
+calling CreateDocumentL [vt+14] (fn=0184870c arg=007117d0)
+  returned 00705bd0
+calling CreateAppUiL [vt+19] (fn=01848d4c arg=00705bd0)
+  returned 00711a00
+game: app=007117d0 doc=00705bd0 appui=00711a00
+gfx: fake screen memory at 0083f4b0 (176x208, mode 7)
+fs: real fopen = 806c4581 (estlib ordinal 140, load 0)
+fs: AppFullName will answer 'E:\symbridge\Rodland\RodLandSymb.app'
+--- old AppUi::ConstructL (trace mode) ---
+calling AppUi::ConstructL [vt+15] (fn=01848750 arg=00711a00)
+fs: TParse::Set -> 0, full name 'E:\symbridge\Rodland\RodLandSymb.app'
+fs: DriveAndPath this=0041f0f8 facade=1
+gfx: bitmap 176x208 mode 7 stride 352 at 00864bd0
+gfx: ScreenInfo -> screen=0083f4b0 176x208
+thread: Create('hssThread_0001', fn=0184aab8, stack 10000 (old 4000), old heap 00000000, ptr 00711d80, type 0) -> 0
+thread: SetPriority(old 10), clamped=1
+thread: Resume
+thread: game thread running fn=0184aab8 param=00711d80
+tls: set handle=01800000 ptr=00711d80
+cleanup: CTrapCleanup::New answered with a fake object
+sched: CActiveScheduler ctor old=0087a288 real=0087a2b0
+sched: Install(old=0087a288) real=0087a2b0
+audio: CMdaAudioOutputStream::NewL(observer 0087a2d8) -> facade 0087ab60, real stream 1
+audio: Open
+audio: Open: real stream 1, game props 0 (8000 Hz, 1 ch)
+sched: Start (entering the real loop)
+audio: real MaoscOpenComplete(0), useReal=1 shutdown=0 queued=0 tick=18611850
+audio: REAL stream open: 8000 Hz, 1 ch, volume 5/10, 0 buffers flushed
+audio: game SetAudioPropertiesL rate=100 ch=2000000 (open done 1)
+audio: real stream properties 16000 Hz, 1 ch -> 0
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+fs: fopen 'E:\symbridge\Rodland\gamesettings' mode 'rb' -> 'E:\symbridge\Rodland\gamesettings' = 008875b4
+audio: game WriteL len=2048 (open done 1, real 1)
+fs: TParse::Set -> 0, full name 'E:\symbridge\Rodland\RodLandSymb.app'
+fs: DriveAndPath this=0041efb8 facade=1
+fs: Open('E:\symbridge\Rodland\rodland.mp', mode 0) -> 0
+fs: Size -> 0, size 45
+fs: Read(max 56) -> 0, got 45 bytes
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+ctl: AddForegroundObserverL(observer 00711a98) -> 1 registered
+periodic: CPeriodic::New(priority -100) -> fake 00887840
+periodic: Start(delay 1 us, interval 1000 us (asked 1), fn=01820690, ptr=008630d8)
+ctl: AddToStackL(control 00711a68, priority 0, flags 0) -> 1 on the stack
+  returned 00703d9c
+input route: key=control stack (framework default), foreground=no AppUi override + 1 observer(s), stacked controls=1
+input route: AppUi vtable 019291f0 word8=0184b9e8 word9=0184bf08
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+config: 'E:\symbridge\Rodland\configs.cfg' scale_mode=3 scale_key=196 show_fps=0 max_fps=0 softkeys=0/0 logging=2
+config: in effect show_fps=0 max_fps=0 softkeys=0/0
+disp: start frames -> 0, container rect 0,0 - 320,240
+foreground: gain=1 told AppUi override=0, observers=1
+start-up done
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+foreground: gain=1 told AppUi override=0, observers=1
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+audio: game WriteL len=2048 (open done 1, real 1)
+scale: mode 4, picture 320x240, saved -> 0
+scale: mode 5, picture 320x240, saved -> 0
+scale: mode 1, picture 176x208, saved -> 0
+scale: mode 2, picture 203x240, saved -> 0
+scale: mode 3, picture 203x240, saved -> 0
+key: softkey scan=165 type=3 code=0
+key: softkey scan=165 type=1 code=63555
+key: softkey scan=165 type=2 code=0
+key: softkey scan=165 type=3 code=0
+key: softkey scan=165 type=1 code=63555
+exit: game called CEikAppUi::Exit(), unwinding the old frames
+exit: performing the real CEikAppUi::Exit() from host frames
+exit: CEikAppUi::Exit() left with -1003
+exit: destructor start
+sched: Stop
+sched: Start returned (Stop was called)
+audio: stream deleted by old code
+foreground: gain=0 told AppUi override=0, observers=1
+foreground: game already exited, focus event not sent
+audio: real MaoscPlayComplete(-3) -> old code gets -3
+exit: foreground lost
+audio: facade 0087ab60 freed (real stream 1)
+hits: 0 unresolved imports were reached
+sched: old scheduler 0087a288 destroyed (flags 3)
+gfx: total frames 1815 in 59546 ms
+thread: game thread finished: trap=0 old-leave=0 result=0 lasthit=-1
+free RAM exit=159821824 delta=-7749632
+thread: game thread 6cc ended: type=0 (0=kill 1=terminate 2=panic) reason=0 category='Kill' (state already detached: it returned normally)
+SUMMARY uid3=028a6038 imports=245 direct=25 shim=117 trap=103 reached=0 frames=1815 exit=normal secs=59
+thread: game thread(s) ended by themselves after 0 ms
+exit: game thread 1 (1 = ended by itself, 0 = will be killed)
+audio: shutdown, opens requested=1, real open completions=1, real buffers copied=954, fallbacks to fake=0
+exit: before container delete
+exit: container deleted
+exit: game threads shut down
+exit: code chunk closed
+SymBridge GUI exit
+CRASHWATCH: UI thread exit type=0 (0=kill 1=terminate 2=panic) category=Kill reason=0

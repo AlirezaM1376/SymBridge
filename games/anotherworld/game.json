@@ -1,0 +1,24 @@
+{
+  "id": "anotherworld",
+  "name": "Another World",
+  "uid3": "10272dbb",
+  "app_file": "AnotherWorld.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "Bug: Switch to bakcground and back to game while you are in game main menu and phone will freez (game's own bug)",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 242,
+        "direct": 23,
+        "shim": 122,
+        "trap": 97,
+        "reached": 0
+      }
+    }
+  ]
+}

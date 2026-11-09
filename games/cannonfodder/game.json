@@ -1,0 +1,24 @@
+{
+  "id": "cannonfodder",
+  "name": "Cannon Fodder",
+  "uid3": "09064766",
+  "app_file": "CannonFodder.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 231,
+        "direct": 18,
+        "shim": 115,
+        "trap": 98,
+        "reached": 0
+      }
+    }
+  ]
+}

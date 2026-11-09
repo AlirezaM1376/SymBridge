@@ -1,0 +1,29 @@
+{
+  "id": "snails",
+  "name": "Snails",
+  "uid3": "10005b81",
+  "app_file": "Snails.app",
+  "status": "plays",
+  "profile": "10005B81.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 195,
+        "direct": 33,
+        "shim": 67,
+        "trap": 95,
+        "reached": 0
+      }
+    },
+    {
+      "id": "alt",
+      "map": "map.alt.csv",
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "snake",
+  "name": "Snake",
+  "uid3": "1020898e",
+  "app_file": "snake.app",
+  "status": "plays",
+  "profile": "1020898E.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 235,
+        "direct": 38,
+        "shim": 102,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}

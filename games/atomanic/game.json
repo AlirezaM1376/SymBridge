@@ -1,0 +1,24 @@
+{
+  "id": "atomanic",
+  "name": "Atomanic",
+  "uid3": "003b6852",
+  "app_file": "Atomanic.app",
+  "status": "plays",
+  "profile": "003B6852.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 245,
+        "direct": 19,
+        "shim": 126,
+        "trap": 100,
+        "reached": 0
+      }
+    }
+  ]
+}

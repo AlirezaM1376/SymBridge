@@ -1,0 +1,27 @@
+# Amiba's Candy (UID3 0B119053) profile. Read after default.prf; only the keys in this file override it.
+# Check default profile (default.prf) to understand the operation of each key.
+# Remove the # to override default values (# before each line means it's commented)
+
+#screen_width=176
+#screen_height=208
+display_mode=10
+
+#thread_stack_min=0x10000
+#thread_high_priority=normal
+
+# The exit trick not needed for this game.
+stop_state_value=0
+
+# Safeguard: ignore this profile if the .app is a different build (header code size of this one).
+match_code_size=0x86064
+
+#link_report=0
+#keys_plain=0
+#auto_cmd=0
+
+# Settings that configs.cfg also has. These values will override config file values (remove the # to override) 
+
+#show_fps=0
+#max_fps=0
+#softkey_left_cmd=0
+#softkey_right_cmd=0

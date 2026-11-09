@@ -1,0 +1,25 @@
+# SymBridge profile for Aqua Block Plus (UID3 1020898A). Read after default.prf; only the keys in this file override it.
+# Check default profile (default.prf) to understand the operation of each key.
+# Remove the # to override default values (# before each line means it's commented)
+
+#screen_width=176
+#screen_height=208
+#display_mode=7
+
+#thread_stack_min=0x10000
+#thread_high_priority=normal     (less | normal | more)
+#link_report=1                   (1 = write <app>_links.txt next to the game on the first run)
+#keys_plain=0
+#auto_cmd=0
+
+# The exit trick applies to this game.
+stop_state_tls=0x60
+stop_state_field=0x20
+stop_state_value=3
+
+# Settings that configs.cfg also has. These values will override config file values (remove the # to override)
+
+#show_fps=0
+max_fps=40
+#softkey_left_cmd=0
+#softkey_right_cmd=0

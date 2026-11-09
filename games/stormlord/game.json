@@ -1,0 +1,29 @@
+{
+  "id": "stormlord",
+  "name": "Stormlord",
+  "uid3": "0f9ceff3",
+  "app_file": "Stormlord.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 242,
+        "direct": 21,
+        "shim": 123,
+        "trap": 98,
+        "reached": 0
+      }
+    },
+    {
+      "id": "alt",
+      "map": "map.alt.csv",
+      "notes": "older release; does NOT match the baseline (the log belongs to the main map)"
+    }
+  ]
+}

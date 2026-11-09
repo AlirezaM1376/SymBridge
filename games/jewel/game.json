@@ -1,0 +1,24 @@
+{
+  "id": "jewel",
+  "name": "Jewel Master",
+  "uid3": "1020898d",
+  "app_file": "jewel.app",
+  "status": "plays",
+  "profile": "1020898D.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 235,
+        "direct": 38,
+        "shim": 102,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}

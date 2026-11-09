@@ -1,0 +1,29 @@
+{
+  "id": "magicpuz",
+  "name": "MagicPuz",
+  "uid3": "00aee84a",
+  "app_file": "MagicPuz.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 251,
+        "direct": 25,
+        "shim": 128,
+        "trap": 98,
+        "reached": 0
+      }
+    },
+    {
+      "id": "alt",
+      "map": "map.alt.csv",
+      "notes": "second release; also predicts the baseline counts (kept as a second map)"
+    }
+  ]
+}

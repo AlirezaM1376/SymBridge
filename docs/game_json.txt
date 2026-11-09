@@ -1,0 +1,23 @@
+game.json - one per game, in games\<id>\
+=========================================
+Fields
+  id          game id = folder name (lowercase, no spaces)
+  name        display name
+  uid3        8 hex digits, lowercase; must equal the SUMMARY uid3 of the main baseline log
+  code_size   optional, hex string
+  app_file    file name of the .app (name only; binaries are never in the repository)
+  status      plays | partial | menu | not_tested
+  profile     "<UID3>.prf" if the game has its own profile in profiles\, else "none"
+  notes       short free text
+  versions    list, at least one; the one with id "main" is required
+      id        "main", "alt", "alt2", ...
+      map       CSV file in the same folder (main: map.csv, others: map.alt.csv, map.alt2.csv ...)
+      baseline  main only: reduced device log (baseline.log); an alt may get its own later
+      expect    main only: imports, direct, shim, trap, reached (copied from the log by mkmanifest.py)
+      notes     what differs from main
+
+Who writes what
+  mkmanifest.py  writes uid3, app_file and main.expect from baseline.log; creates the file when it is new;
+                 never overwrites name, status, profile, notes or any version notes.
+  you            set name, status, profile, notes by hand.
+  check_manifest.py  verifies all of the above against the folder and the log.

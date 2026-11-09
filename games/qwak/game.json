@@ -1,0 +1,24 @@
+{
+  "id": "qwak",
+  "name": "Qwak",
+  "uid3": "0ba8f6af",
+  "app_file": "QWAK.app",
+  "status": "plays",
+  "profile": "none",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "baseline": "baseline.log",
+      "notes": "",
+      "expect": {
+        "imports": 244,
+        "direct": 22,
+        "shim": 124,
+        "trap": 98,
+        "reached": 0
+      }
+    }
+  ]
+}

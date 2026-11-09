@@ -1,0 +1,55 @@
+TARGET          symbridge.exe
+TARGETTYPE      exe
+UID             0x100039CE 0xE0007312
+SECUREID        0xE0007312
+
+EPOCSTACKSIZE   0x10000
+EPOCHEAPSIZE    0x20000 0x1000000
+
+SOURCEPATH      ..\src
+SOURCE          lhgui.cpp
+SOURCE          hostlog.cpp
+SOURCE          legacyimage.cpp
+SOURCE          importtest.cpp
+SOURCE          oldrt.cpp
+SOURCE          iatfill.cpp
+SOURCE          cfgtext.cpp
+SOURCE          legacygame.cpp
+SOURCE          crashwatch.cpp
+SOURCE          gfxfake.cpp
+SOURCE          fsshim.cpp
+SOURCE          threadshim.cpp
+SOURCE          schedshim.cpp
+SOURCE          activeshim.cpp
+SOURCE          audioshim.cpp
+SOURCE          rtshim.cpp
+SOURCE          compatshim.cpp
+SOURCE          memshim.cpp
+SOURCE          directbind.cpp
+SOURCE          eikshim.cpp
+SOURCE          shimreg.cpp
+SOURCE          hostconfig.cpp
+SOURCE          swscale.cpp
+SOURCE          gamelocator.cpp
+SOURCE          profile.cpp
+SOURCE          ctlreg.cpp
+SOURCE          importmap.cpp
+SOURCE          importmap_data.cpp
+
+SOURCEPATH      ..\data
+START RESOURCE  symbridge.rss
+HEADER
+TARGETPATH      \resource\apps
+END
+START RESOURCE  symbridge_reg.rss
+TARGETPATH      \private\10003a3f\apps
+END
+
+USERINCLUDE     ..\src ..\data
+SYSTEMINCLUDE   \epoc32\include
+
+LIBRARY         euser.lib efsrv.lib hal.lib
+LIBRARY         apparc.lib cone.lib eikcore.lib	avkon.lib gdi.lib
+LIBRARY         ws32.lib bitgdi.lib fbscli.lib mediaclientaudiostream.lib
+
+CAPABILITY      NONE

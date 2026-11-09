@@ -1,0 +1,30 @@
+&EN
+
+#{"SymBridge"}, (0xE0007312), 1, 1, 0, TYPE=SA
+
+%{"Vendor"}
+:"Alireza Elahi | Claude"
+
+[0x101F7961], 0, 0, 0, {"Series60ProductID"}
+[0x1028315F], 0, 0, 0, {"S60 5th Edition devices"}
+[0x20022E6D], 0, 0, 0, {"Symbian^3 devices"}
+[0x2003A678], 0, 0, 0, {"Symbian Belle devices"}
+
+"C:\Symbian\9.2\S60_3rd_FP1\epoc32\release\gcce\urel\symbridge.exe"            -"!:\sys\bin\symbridge.exe"
+"C:\Symbian\9.2\S60_3rd_FP1\epoc32\data\z\resource\apps\symbridge.rsc"         -"!:\resource\apps\symbridge.rsc"
+"C:\Symbian\9.2\S60_3rd_FP1\epoc32\data\z\private\10003a3f\apps\symbridge_reg.rsc" -"!:\private\10003a3f\import\apps\symbridge_reg.rsc"
+"symbridge.mif"             -"!:\resource\apps\symbridge.mif"
+"autostart"                 -"!:\SymBridge\autostart"
+"autostart"                 -"c:\SymBridge\autostart"
+"..\profiles\default.prf"   -"c:\system\apps\symbridge\profiles\default.prf"
+"..\profiles\0B119053.prf"  -"c:\system\apps\symbridge\profiles\0B119053.prf"
+"..\profiles\003B6852.prf"  -"c:\system\apps\symbridge\profiles\003B6852.prf"
+"..\profiles\028A6038.prf"  -"c:\system\apps\symbridge\profiles\028A6038.prf"
+"..\profiles\101F8B94.prf"  -"c:\system\apps\symbridge\profiles\101F8B94.prf"
+"..\profiles\101F8B96.prf"  -"c:\system\apps\symbridge\profiles\101F8B96.prf"
+"..\profiles\0548E337.prf"  -"c:\system\apps\symbridge\profiles\0548E337.prf"
+"..\profiles\10005B81.prf"  -"c:\system\apps\symbridge\profiles\10005B81.prf"
+"..\profiles\10208989.prf"  -"c:\system\apps\symbridge\profiles\10208989.prf"
+"..\profiles\1020898A.prf"  -"c:\system\apps\symbridge\profiles\1020898A.prf"
+"..\profiles\1020898E.prf"  -"c:\system\apps\symbridge\profiles\1020898E.prf"
+"..\profiles\03510510.prf"  -"c:\system\apps\symbridge\profiles\03510510.prf"

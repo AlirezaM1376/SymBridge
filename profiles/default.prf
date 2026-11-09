@@ -1,0 +1,57 @@
+# SymBridge default profile: read first for every game. A game profile (<UID3>.prf, 8 hex digits,
+# e.g. 0548E337.prf) in the same folder overrides only the keys it contains.
+# The values below are the built-in ones (the Captain Dynamo behaviour), so this file changes nothing
+# until you edit it. Lines starting with # are comments.
+
+# Size of the "screen" the game is told about (32..640).
+screen_width=176
+screen_height=208
+
+# Display mode the game is told: 7 = 64K colours (default), 10 = 4K colours (12-bit, for S60v1 games).
+# The host always shows RGB565; 4K bitmaps are converted when they are blitted.
+display_mode=7
+
+# Minimum stack (0x4000..0x40000) of the threads the game creates.
+thread_stack_min=0x10000
+
+# What the old "realtime / high" thread priority requests become: less | normal | more.
+thread_high_priority=normal
+
+# 1 = write one line per import to <app>_links.txt next to the game (for finding missing imports), 0 = off.
+link_report=0
+
+# Exit trick for games whose engine thread only stops when a state word in its own control block says so.
+# The game keeps the control block's address in its Dll::Tls data: at byte offset stop_state_tls there is
+# the pointer to the block, and the word at byte offset stop_state_field of the block is set to
+# stop_state_value. These defaults are the Captain Dynamo layout. A game that stops itself or has another
+# layout (e.g. Rodland) needs "stop_state_value" to be 0 in its own profile. Offsets: 0..0x1000, multiples of 4.
+stop_state_tls=0x60
+stop_state_field=0x20
+stop_state_value=3
+
+# match_code_size=<hex>  (game profile only, not here): the profile is ignored if the game's .app code
+# size differs, so a profile cannot be applied to a different version of the game.
+
+# keys_plain is not general, use it in per-game profile when needed, not here.
+# 1 = the control-stack route also gets the plain EEventKey (menus of games that read only that).
+# 0 = off.
+#keys_plain=0
+                        
+# auto_cmd is not general, use it in per-game profile when needed, not here.
+# command id sent once to the game's AppUi::HandleCommandL after start-up (0 = none)
+#auto_cmd=0
+
+# Settings that configs.cfg also has. Not set here, so configs.cfg decides. Remove the # to override
+# them for every game (or put them in a <UID3>.prf for one game):
+
+# show_fps: 1 = show an FPS counter in the top left corner, 0 = hidden. on / off also work.
+#show_fps=0
+
+# max_fps: 0 = unlimited. A game whose frame loop has no timing of its own runs too fast on a modern phone;
+# max_fps=20 (try 15 .. 30) limits it to that many frames per second. Other games: leave 0.
+#max_fps=0
+
+# softkey_left_cmd / softkey_right_cmd: for games whose softkeys are menu commands. The number is the command id
+# the game's HandleCommandL gets when the softkey is released. 0 = the softkey is not used.
+#softkey_left_cmd=0
+#softkey_right_cmd=0

@@ -1,0 +1,24 @@
+{
+  "id": "redhood",
+  "name": "RedHood",
+  "uid3": "101f8b94",
+  "app_file": "RedHood.app",
+  "status": "plays",
+  "profile": "101F8B94.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 162,
+        "direct": 2,
+        "shim": 63,
+        "trap": 97,
+        "reached": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+NAME SMBR
+
+#include <eikon.rh>
+#include <avkon.rh>
+#include <avkon.rsg>
+#include <appinfo.rh>
+#include "symbridge.hrh"
+
+RESOURCE RSS_SIGNATURE { }
+		
+RESOURCE TBUF r_sb_default_document_name { buf = ""; }
+
+RESOURCE EIK_APP_INFO
+    {
+    menubar = r_sb_menubar;
+    cba = R_AVKON_SOFTKEYS_OPTIONS_EXIT;
+    }
+
+RESOURCE MENU_BAR r_sb_menubar
+    {
+    titles =
+        {
+        MENU_TITLE { menu_pane = r_sb_menu; }
+        };
+    }
+
+RESOURCE MENU_PANE r_sb_menu
+    {
+    items =
+        {
+        MENU_ITEM { command = ESbCmdLog;   txt = "Write log line"; },
+        MENU_ITEM { command = EAknCmdExit; txt = "Exit"; }
+        };
+    }
+
+RESOURCE LOCALISABLE_APP_INFO r_sb_localisable_app_info
+    {
+    short_caption = "SymBridge";
+    caption_and_icon = CAPTION_AND_ICON_INFO
+        {
+        caption = "SymBridge";
+        number_of_icons = 1;
+        icon_file = "\\resource\\apps\\symbridge.mif";
+        };
+    }

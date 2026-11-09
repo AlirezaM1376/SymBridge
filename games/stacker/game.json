@@ -1,0 +1,24 @@
+{
+  "id": "stacker",
+  "name": "Stone Stacker",
+  "uid3": "10208992",
+  "app_file": "stacker.app",
+  "status": "plays",
+  "profile": "10208992.prf",
+  "notes": "",
+  "versions": [
+    {
+      "id": "main",
+      "map": "map.csv",
+      "notes": "",
+      "baseline": "baseline.log",
+      "expect": {
+        "imports": 236,
+        "direct": 38,
+        "shim": 103,
+        "trap": 95,
+        "reached": 0
+      }
+    }
+  ]
+}
