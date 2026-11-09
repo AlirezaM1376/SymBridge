@@ -12,6 +12,12 @@ its own scaling, key handling and sound.
 > The project is a hobby preservation effort. Expect rough edges.
 > While 90% of the code-base written by AI, the other parts including plannings, code reviewing, buldings, and testings done manually by human.
 
+## Screenshots
+
+![](images/RedHood_E7.png "RedHood on Nokia E7")
+![](images/Snails_N86.png "Snails on Nokia N86")
+![](images/Qwak_603.png "Qwak on Nokia 603")
+
 ## How it works
 
 SymBridge does not emulate a CPU. The game's ARM code runs natively; the host replaces everything the game *touches*.
